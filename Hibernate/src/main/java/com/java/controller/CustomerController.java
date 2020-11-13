@@ -59,7 +59,10 @@ public class CustomerController {
 		customerService.saveCustomer(theCustomer);
 		
 		
-		return "redirect:/customer/list";
+	
+
+
+	return "redirect:/customer/list";
 	}*/
 	
 	@PostMapping("insert")
