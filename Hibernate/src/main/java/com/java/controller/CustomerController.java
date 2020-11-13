@@ -69,7 +69,12 @@ public class CustomerController {
 		return resp;
 		
 	}
-	
+	@GetMapping("/save")
+	public String saveCustomer(@ModelAttribute("customer") Customer theCustomer) {
+		
+		
+		return "hello";
+	}
 	
 }
 
